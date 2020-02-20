@@ -1,6 +1,7 @@
 package flysong.rgb.proxy;
 
 import flysong.rgb.Modlog;
+import flysong.rgb.init.BlockTLoader;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -11,6 +12,7 @@ public class Client extends Common{
     {
         Modlog.logger.info("PreInit in Client");
         super.preInit(event);
+        new BlockTLoader();
     }
     @Override
     public void init(FMLInitializationEvent event)

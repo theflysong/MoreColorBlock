@@ -1,5 +1,6 @@
 package flysong.rgb.CT;
 
+import flysong.rgb.init.BlockLoader;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 
@@ -11,6 +12,6 @@ public class CTColorBlock extends CreativeTabs {
 
     @Override
     public ItemStack getTabIconItem() {
-        return null;
+        return new ItemStack(BlockLoader.a1);
     }
 }
