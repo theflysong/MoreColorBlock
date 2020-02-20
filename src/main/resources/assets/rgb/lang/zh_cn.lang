@@ -1,2 +1,5 @@
 tile.rgbColorBlock.name=彩色方块
 itemGroup.colorBlock=彩色方块
+commands.RGB.usage=/RGB [R] [G] [B]\n这个命令有三个参数。分别对应了RGB中的R、G、B。它会自动给你匹配最接近的颜色方块。
+command.args.1=参数不足
+command.args.2=参数错误

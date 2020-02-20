@@ -1,2 +1,5 @@
 tile.rgbColorBlock.name=Color Block
 itemGroup.colorBlock=Color Block
+commands.RGB.usage=/RGB [R] [G] [B]\nThis command has three parameters. Corresponding to R, G and B in RGB respectively. It will automatically match the closest color block to you.
+command.args.1=Insufficient args
+command.args.2=Wrong args

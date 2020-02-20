@@ -7,6 +7,8 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
+
 import static flysong.rgb.Modlog.*;
 
 @Mod(modid = rgb.MODID,name = rgb.NAME,version = rgb.VERSION,acceptedMinecraftVersions = "1.12.2")
@@ -42,5 +44,11 @@ public class rgb {
     {
         Modlog.logger.info("PostInit in DarkAges");
         proxy.postInit(event);
+    }
+
+    @Mod.EventHandler
+    public void serverStarting(FMLServerStartingEvent event)
+    {
+        proxy.serverStarting(event);
     }
 }
