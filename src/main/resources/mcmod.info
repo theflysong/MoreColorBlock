@@ -1,0 +1,16 @@
+[
+{
+  "modid": "rgb",
+  "name": "More Color Block",
+  "description": "Add more colorful block for minecraft.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Flysong"],
+  "credits": "FML,Forge,Minecraft",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
