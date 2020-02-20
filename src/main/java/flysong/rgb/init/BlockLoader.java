@@ -1,11 +1,14 @@
 package flysong.rgb.init;
 
+import flysong.rgb.rgb;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
+@Mod.EventBusSubscriber(modid = rgb.MODID)
 public class BlockLoader {
     public static final Block a1 = new Block(Material.ROCK).setUnlocalizedName("rgbColorBlock").setRegistryName("000_000_000").setCreativeTab(CTLoader.ColorBlock);
     public BlockLoader()

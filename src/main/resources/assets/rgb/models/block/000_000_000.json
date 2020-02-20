@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "rbg:block/000_000_000"
+        "all": "rgb:block/000_000_000"
     }
 }

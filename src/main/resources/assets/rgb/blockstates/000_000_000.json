@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "rbg:000_000_000" }
+        "normal": { "model": "rgb:000_000_000" }
     }
 }
