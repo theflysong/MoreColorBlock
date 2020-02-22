@@ -66,6 +66,17 @@ public class CommandRGB extends CommandBase
             else {
                 B-=B%64;
             }
+            if(R==256) {
+                R=255;
+            }
+            if(G==256)
+            {
+                G=255;
+            }
+            if(B==256)
+            {
+                B=255;
+            }
             String r,g,b;
             if(R==0) {
                 r="000";

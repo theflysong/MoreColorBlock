@@ -2,6 +2,7 @@ package flysong.rgb;
 
 import flysong.rgb.proxy.Common;
 
+import net.minecraft.client.renderer.GlStateManager;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -15,7 +16,7 @@ import static flysong.rgb.Modlog.*;
 public class rgb {
     public static final String MODID = "rgb";
     public static final String NAME = "More Color Block";
-    public static final String VERSION = "1.0.0";
+    public static final String VERSION = "1.0.1";
 
     @Mod.Instance(rgb.MODID)
     public static rgb instance;
